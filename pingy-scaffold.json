@@ -1,0 +1,43 @@
+{
+  "name": "bulma",
+  "web": ".",
+  "description": "Web scaffold for Bulma",
+  "devDependencies": {},
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "font-awesome": "^4.7.0"
+  },
+  "pingyJson": {
+    "sourceMap": false,
+    "exclusions": [
+      {
+        "path": "node_modules",
+        "action": "dontCompile",
+        "type": "dir"
+      },
+      {
+        "path": "node_modules/**",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path": "!node_modules/{bulma,bulma/css,bulma/css/**}",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path":
+          "!node_modules/{font-awesome,font-awesome/css,font-awesome/css/**}",
+        "action": "exclude",
+        "type": "dir"
+      },
+      {
+        "path":
+          "!node_modules/{font-awesome,font-awesome/fonts,font-awesome/fonts/**}",
+        "action": "exclude",
+        "type": "dir"
+      }
+    ]
+  },
+  "files": []
+}
