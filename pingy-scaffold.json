@@ -1,7 +1,5 @@
 {
-  "name": "bulma",
   "web": ".",
-  "description": "Web scaffold for Bulma",
   "devDependencies": {},
   "dependencies": {
     "bulma": "^0.6.1",

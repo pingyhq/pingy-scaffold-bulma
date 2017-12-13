@@ -1,15 +1,12 @@
 {
   "name": "pingy-scaffold-bulma",
   "version": "1.0.0",
-  "description": "Free Templates for the Bulma CSS Framework",
+  "description": "Free Bulma CSS Web Scaffolds for Pingy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dave Jeffery <dave@davejeffery.com>",
   "license": "MIT",
-  "dependencies": {
-    "bulma": "^0.6.1",
-    "font-awesome": "^4.7.0"
-  }
+  "dependencies": {}
 }
